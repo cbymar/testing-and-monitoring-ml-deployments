@@ -31,4 +31,5 @@ def raw_training_data():
 
 @pytest.fixture()
 def sample_input_data():
+    """easy access to the test data, which is referenced in yaml"""
     return load_dataset(file_name=config.app_config.test_data_file)

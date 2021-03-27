@@ -75,7 +75,7 @@ class ModelConfig(BaseModel):
 
 
 class Config(BaseModel):
-    """Master config object."""
+    """Master config object. Inherits from pydantic BaseModel"""
 
     app_config: AppConfig
     model_config: ModelConfig

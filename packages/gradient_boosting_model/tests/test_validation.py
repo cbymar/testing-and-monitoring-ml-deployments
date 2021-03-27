@@ -2,6 +2,7 @@ from gradient_boosting_model.processing.validation import validate_inputs
 
 
 def test_validate_inputs(sample_input_data):
+    """These are static hardcodes; what's going on there. """
     # When
     validated_inputs, errors = validate_inputs(input_data=sample_input_data)
 
